@@ -1,20 +1,28 @@
 'use strict';
 
-angular.module('weblioApp', [
-  'weblioApp.auth',
-  'weblioApp.admin',
-  'weblioApp.constants',
+var myapp = angular.module('weblioApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'btford.socket-io',
   'ui.router',
   'ui.bootstrap',
-  'validation.match'
+  'validation.match',
+  'ngMaterial'
 ])
-  .config(function($urlRouterProvider, $locationProvider) {
-    $urlRouterProvider
-      .otherwise('/');
+  .config(function($stateProvider, $urlRouterProvider) {
 
-    $locationProvider.html5Mode(true);
-  });
+    $urlRouterProvider.otherwise('/home');
+
+    $stateProvider
+
+      // HOME STATES AND NESTED VIEWS ========================================
+      .state('home', {
+        url: '/home',
+        templateUrl: 'app/home/home.html'
+      })
+
+      // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+      .state('about', {
+        // we'll get to this in a bit
+      })});
