@@ -1,0 +1,90 @@
+.contact-head {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 72px;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #757575;
+  padding-top: 36px;
+}
+
+.contact-text {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-family: 'Roboto', serif;
+  font-weight: 100;
+}
+
+.email-contact {
+
+}
+
+.cover-contact-card {
+  padding: 2px;
+  transition-duration: 0.5s;
+
+}
+
+.cover-contact-card {
+  border-radius: 200%;
+  border: solid 1px #EBEEF0;
+  display: inline-block;
+  background: none;
+}
+
+.cover-contact-card:hover {
+  border-radius: 200%;
+  border: solid 1px #C5C5C5;
+  display: inline-block;
+  background: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.contact-button .md-button.md-fab:not([disabled]):hover {
+  background-color: #C5C5C5;
+}
+
+.contact-button .md-button.md-fab {
+  background-color: #C5C5C5;
+  color: rgb(255, 255, 255);
+}
+
+button.md-fab.contact-button.md-button.md-ink-ripple {
+  width: 130px;
+  height: 130px;
+}
+
+.contact-label {
+  padding-top: 5%;
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 18px;
+  width: 70%;
+  color: #EF6F62;
+  font-family: 'Roboto', serif;
+  font-weight: 100;
+}
+
+.label-align {
+  text-align: center;
+  width: 70%;
+  padding-top: 15%;
+  text-decoration: underline;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+}
+
+.contact-button {
+  max-width: 100%;
+}
+
+.letter-label {
+  letter-spacing: 0px !important;
+}
+
+

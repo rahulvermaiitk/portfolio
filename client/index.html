@@ -13,7 +13,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(client) app/vendor.css -->
       <!-- bower:css -->
-      <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+    <link rel='stylesheet' href='bower_components/angular-material/angular-material.css'/>
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,client}) app/app.css -->
@@ -21,6 +21,8 @@
       <!-- injector:css -->
       <!-- endinjector -->
     <!-- endbuild -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
   </head>
   <body ng-app="weblioApp">
     <!--[if lt IE 7]>
@@ -70,20 +72,26 @@
       <!-- injector:js -->
       <script src="components/auth/auth.module.js"></script>
       <script src="components/util/util.module.js"></script>
-      <script src="components/modal/modal.service.js"></script>
+    <script src="components/auth/router.decorator.js"></script>
+    <script src="app/calender/calender.js"></script>
+    <script src="app/contact/contact-ctrl.js"></script>
+    <script src="app/gallery/gallery-ctrl.js"></script>
+    <script src="app/home/home-ctrl.js"></script>
+    <script src="app/projects/projects-ctrl.js"></script>
+    <script src="app/about/about-ctrl.js"></script>
       <script src="components/auth/auth.service.js"></script>
       <script src="components/auth/interceptor.service.js"></script>
-      <script src="components/auth/router.decorator.js"></script>
+    <script src="app/app.constant.js"></script>
       <script src="components/auth/user.service.js"></script>
       <script src="components/footer/footer.directive.js"></script>
-      <script src="app/home/home-ctrl.js"></script>
+    <script src="components/modal/modal.service.js"></script>
       <script src="components/mongoose-error/mongoose-error.directive.js"></script>
       <script src="components/navbar/navbar.controller.js"></script>
       <script src="components/navbar/navbar.directive.js"></script>
       <script src="components/oauth-buttons/oauth-buttons.controller.js"></script>
       <script src="components/oauth-buttons/oauth-buttons.directive.js"></script>
       <script src="components/socket/socket.service.js"></script>
-      <script src="app/app.constant.js"></script>
+    <script src="app/blog/blog-ctrl.js"></script>
       <script src="components/util/util.service.js"></script>
       <!-- endinjector -->
     <!-- endbuild -->
