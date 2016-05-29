@@ -1,12 +1,12 @@
 <div ng-controller="homeController">
-  <md-toolbar class="md-hue-2 color-bar md-medium-tall">
+  <md-toolbar class="md-hue-2 color-bar md-medium-tall custom-toolbar-fixed">
       <div class="md-toolbar-tools">
         <md-button class="md-icon-button" ng-click="openLeftMenu()">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </md-button>
-        <span class="intro-tool"><span class="intro-tool-big-size">My name is <span class="intro-tool-weight">Rahul Verma</span></span> <span
-          class="paraller-intro">|</span> <span class="intro-tool-size">I love <span class="intro-tool-weight">technology</span>, <span
-          class="intro-tool-weight">movies</span> and <span class="intro-tool-weight">food!</span></span> </span>
+        <span class="intro-tool"><span class="intro-tool-big-size">My name is <span class="intro-tool-weight">Rahul Verma </span></span> <span
+          class="paraller-intro">| </span><span class="intro-tool-size">I love <span class="intro-tool-weight">technology</span>,<span
+          class="intro-tool-weight">movies </span>and <span class="intro-tool-weight">food!</span></span></span>
         <span flex></span>
         <md-button class="md-icon-button">
           <i class="fa fa-github fa-lg " aria-hidden="true"></i>
@@ -16,7 +16,7 @@
       </md-button>
       </div>
     </md-toolbar>
-  <md-content>
+  <md-content class="content-fixed-toolbar">
    <div layout="row" layout-xs="column">
      <div class="left-navigation md-accent md-hue-2" flex="20">
        <div class="image-container"><img src="app\image\dp.jpg" class="dp-image" alt="dp_image"/></div>
@@ -25,44 +25,44 @@
        <div>
          <md-list>
            <md-divider></md-divider>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".home" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-home fontaw-icon" aria-hidden="true"></i>
               <span class="navigation-name">Home</span></div>
              </md-button>
            </md-list-item>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".blog" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-pencil-square-o fontaw-icon" aria-hidden="true"></i>
                <span class="navigation-name">Blog</span></div>
              </md-button>
            </md-list-item>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".projects" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-list-ul fontaw-icon" aria-hidden="true"></i>
                <span class="navigation-name">Projects</span></div>
              </md-button>
            </md-list-item>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".about" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-info-circle fontaw-icon" aria-hidden="true"></i>
                <span class="navigation-name">About</span></div>
              </md-button>
            </md-list-item>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".contact" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-phone-square fontaw-icon" aria-hidden="true"></i>
                <span class="navigation-name">Contact</span></div>
              </md-button>
            </md-list-item>
            <md-divider></md-divider>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".calender" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-calendar fontaw-icon" aria-hidden="true"></i>
                <span class="navigation-name">Calender</span></div>
              </md-button>
            </md-list-item>
-           <md-list-item>
+           <md-list-item class="padding-mobile">
              <md-button ui-sref=".gallery" class="navigation-menu">
                <div class="left-margin-menu"><i class="fa fa-picture-o fontaw-icon" aria-hidden="true"></i>
                <span class="navigation-name">Gallery</span></div>

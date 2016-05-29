@@ -62,11 +62,11 @@
 }
 
 .intro-tool-size {
-  font-size: 17px;
+  font-size: 85%;
 }
 
 .intro-tool-big-size {
-  font-size: 26px;
+  font-size: 120%;
 }
 
 .paraller-intro {
@@ -77,4 +77,33 @@
 
 .color-bar {
   background-color: #E65100 !important;
+}
+.custom-toolbar-fixed{
+  position: fixed;
+  z-index: 1000;
+}
+.content-fixed-toolbar{
+  top: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+  .right-views{
+    min-width: 100%;
+  }
+  .left-navigation{
+    min-width: 100%;
+  }
+  .email-contact{
+    text-align: center;
+  }
+ /* .contact-label{
+    width: 0px ;
+  }
+  .label-align{
+    width: 0px ;
+  }*/
+  .padding-mobile{
+    padding-left: 34%;
+  }
+
 }
